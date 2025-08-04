@@ -8,7 +8,7 @@ build:
     env: DEV
     build_file: none
     output_files: output/*.zip
-    image_template: alertmanager-0.28.1
+    image_template: alertmanager-0.28
 
 deploy:
     context: athulecloud-1207/DEV
